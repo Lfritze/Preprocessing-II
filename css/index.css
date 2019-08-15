@@ -173,7 +173,7 @@ header {
   flex-wrap: nowrap;
   justify-content: center;
   margin: 0 auto;
-  border-bottom: 0.8rem dashed gray;
+  border-bottom: 0.2rem dashed lightgray;
 }
 .footer {
   width: 100%;
