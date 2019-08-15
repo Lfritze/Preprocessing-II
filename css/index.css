@@ -213,10 +213,10 @@ header nav a {
   padding-bottom: 20px;
 }
 .home .header-stuff img {
-  pdding-bottom: 20px;
+  padding-bottom: 20px;
 }
 .home .header-stuff h2 {
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 .home .header-stuff p {
   text-align: justify;
@@ -280,5 +280,22 @@ header nav a {
   .home {
     margin: 0 auto;
     padding: 1.5rem;
+  }
+  .home .header-stuff {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .home .header-stuff .content-section .text-content {
+    width: 48%;
+  }
+  .home .header-stuff .img-content {
+    width: 100%;
+  }
+  .home .header-stuff .img-content .img-content {
+    width: 100%;
+  }
+  .home .header-stuff .img-content .img-content .img {
+    border-radius: 10px;
   }
 }
