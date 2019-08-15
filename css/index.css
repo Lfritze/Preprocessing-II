@@ -179,10 +179,12 @@ header {
 }
 header h1 {
   padding-top: 1rem;
-  padding-right: 35rem;
+  padding-right: 32rem;
 }
 header nav {
   padding: 1rem;
+  display: flex;
+  justify-content: center;
 }
 header nav a {
   color: black;
@@ -313,7 +315,7 @@ header nav a {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    border-bottom: 1px dashed gray;
+    border-bottom: 1px dashed lightgray;
     padding-bottom: 20px;
   }
   .home .header-content img {
@@ -345,6 +347,8 @@ header nav a {
   }
   .home .content-section .img-content {
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .home .content-section .img-content img {
     border-radius: 10px;
